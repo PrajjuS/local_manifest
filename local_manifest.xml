@@ -9,6 +9,8 @@
 		 fetch="https://gitlab.com/starlight5234" />
 	<remote  name="AndroidSource"
                  fetch="https://android.googlesource.com" />
+        <remote  name="PixelExperience"
+                 fetch="https://github.com/PixelExperience" />
 	<remote  name="Hals"
 		 fetch="https://github.com/Jabiyeff-Project" />
 
@@ -22,7 +24,7 @@
 	<remove-project name="LineageOS/android_hardware_qcom_media" />
 	<remove-project name="LineageOS/android_hardware_qcom_audio" />
 	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<project path="hardware/qcom-caf/wlan" name="platform/hardware/qcom/wlan" remote="AndroidSource" revision="refs/heads/master" clone-depth="1" />
+	<project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="PixelExperience" revision="eleven" clone-depth="1" />
 	<project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="Hals" revision="11.0" clone-depth="1" />
 	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Hals" revision="11.0" clone-depth="1" />
 	<project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="Hals" revision="11.0" clone-depth="1" />
