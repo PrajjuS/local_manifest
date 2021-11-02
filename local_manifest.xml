@@ -16,7 +16,7 @@
 
 	<!-- Device side things -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="CI-Backup" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="sakura-11-user" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="sakura-11-user-backup" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 
 	<!-- Hals -->
