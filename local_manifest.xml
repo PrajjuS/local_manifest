@@ -15,12 +15,14 @@
 		 fetch="https://github.com/Jabiyeff-Project" />
 	<remote  name="AddyGod"
 		 fetch="https://github.com/adnan-44" />
+	<remote  name="Uni"
+                 fetch="https://github.com/GhostMaster69-dev" />
 
 
 	<!-- Device side things -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="CI-rebase" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="CI-New" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="stable" clone-depth="1" />
 
 	<!-- Hals -->
 	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
