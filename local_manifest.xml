@@ -20,9 +20,6 @@
 	<remote  name="clang"
 		 fetch="https://github.com/kdrag0n" />
 
-	<!-- Clang -->
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-
 	<!-- Device side things -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="CI-New" clone-depth="1" />
